@@ -32,3 +32,9 @@ application {
     // Define the main class for the application.
     mainClassName = 'App'
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
